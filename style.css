@@ -1,0 +1,31 @@
+body {
+    background-color: grey;
+}
+header {
+    text-align: center;
+    margin: 100px auto;
+    font-size: 30px;
+
+}
+
+div{
+    margin:25px auto;
+}
+body{
+    font: 15px arial, sans-serif;
+    text-align: center;
+}
+button {
+
+    background-color: cadetblue;
+    border: none;
+    color: black;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+table {
+    border-color: cadetblue;
+}

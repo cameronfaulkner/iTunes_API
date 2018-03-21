@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="backbone.js"></script>
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header id="title">iTunes Song Search</header>
+<input type = 'text' id="search" placeholder="Artist Name" >
+<select id ='displayed'>
+    <option value="0">0</option>
+    <option value="10">10</option>
+    <option value="25">25</option>
+    <option value="50">50</option>
+</select>
+<button onclick='displayTracks()'>Search for an artist!</button>
+<div id="listOutput"></div>
+</body>
+</html>
